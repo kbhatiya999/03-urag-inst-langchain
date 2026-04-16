@@ -1,2 +1,7 @@
 [tools]
 uv = "latest"
+
+[tasks.setup]
+
+[tasks.ping]
+run = "echo 'hello there'"
