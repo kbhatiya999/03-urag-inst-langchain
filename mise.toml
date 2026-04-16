@@ -2,6 +2,8 @@
 uv = "latest"
 
 [tasks.setup]
-
-[tasks.ping]
-run = "echo 'hello there'"
+run = '''
+set -e
+uv venv
+uv pip install -r requirements.txt
+'''
