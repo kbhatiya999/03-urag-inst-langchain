@@ -4,6 +4,6 @@ uv = "latest"
 [tasks.setup]
 run = '''
 set -e
-uv venv
+uv venv --allow-existing
 uv pip install -r requirements.txt
 '''
